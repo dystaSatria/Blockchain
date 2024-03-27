@@ -23,3 +23,35 @@ Bu riski önlemek için, Tangle "koordinatör" adı verilen ek bir yapı tanıtt
 **Tangle juga tidak mengizinkan "double spending" seperti yang dapat terjadi di dalam Blockchain. Namun, untuk memastikan keabsahan transaksi, Tangle menggunakan konsep "confidence confirmation". Ini berarti jika sebuah transaksi telah dikonfirmasi secara langsung atau tidak langsung, maka transaksi tersebut dianggap lebih terpercaya. Meskipun demikian, ada kemungkinan kecil bahwa transaksi palsu dapat diterima. Untuk mengatasi ini, Tangle menggunakan algoritma yang berjalan berulang kali untuk menghitung nilai kepercayaan. Dengan demikian, semakin tinggi nilai kepercayaan, semakin kecil kemungkinan transaksi palsu diterima.**
 
 **Untuk mencegah risiko ini, Tangle memperkenalkan "coordinator", yaitu struktur tambahan untuk mencapai konsensus. Ini membantu mengurangi risiko kecurangan di dalam sistem. Namun, untuk jaringan IOTA saat ini, risiko ini masih ada.**
+
+
+## HashGraph
+
+Poin-poin Penting:
+
+1. Struktur Hashgraph melibatkan semua peserta jaringan yang terus menerus berkomunikasi satu sama lain dan berbagi informasi tentang catatan kejadian.
+2. Dalam komunikasi ini, digunakan pendekatan yang disebut "gossip protocol"; ini memungkinkan peserta untuk berbagi informasi dengan peserta lain secara acak.
+3. Setiap catatan kejadian dalam Hashgraph terhubung satu sama lain melalui nilai hash kriptografis, sehingga memungkinkan catatan kejadian untuk merujuk ke catatan kejadian sebelumnya.
+4. Kesepakatan dalam Hashgraph terjadi berdasarkan urutan dan informasi waktu pada catatan kejadian.
+5. Untuk mencapai kesepakatan, saksi dan proses pemungutan suara digunakan.
+6. Untuk menentukan tur yang valid dari suatu catatan kejadian, saksi harus memberikan suara dan mayoritas harus menerimanya.
+7. Aliran kesepakatan hanya berkonsentrasi pada catatan kejadian tertentu dan struktur keputusan hanya mengikuti hasil dari satu catatan.
+8. Hashgraph menjanjikan kinerja yang lebih tinggi dibandingkan platform Blockchain saat ini.
+9. Beberapa penelitian yang dilakukan pada jaringan privat mencatat adanya 250.000 transaksi per detik.
+10. Platform Hedera menyediakan lingkungan uji coba yang penting untuk teknologi semacam ini diimplementasikan dalam aplikasi dunia nyata.
+
+---
+
+
+Önemli Noktalar:
+
+1. Hashgraph yapısında, tüm ağ katılımcıları sürekli olarak birbirleriyle iletişim kurar ve olay kayıtları hakkında bilgi paylaşır.
+2. İletişimde "gossip protocol" adı verilen bir yaklaşım kullanılır; bu, katılımcıların rastgele diğer katılımcılarla bilgi paylaşmasını sağlar.
+3. Hashgraph'da her olay kaydı, kriptografik özet değerleriyle birbirine bağlıdır, bu da olay kayıtlarının geçmiş olay kayıtlarına referans içermesini sağlar.
+4. Hashgraph mutabakatı, olay kayıtlarının sırası ve zaman bilgisi üzerinde gerçekleşir.
+5. Mutabakat sağlamak için tanıklar ve oy verme süreci kullanılır.
+6. Bir olay kaydının geçerli turunu belirlemek için tanıkların oy kullanması ve çoğunluğunun kabul edilmesi gereklidir.
+7. Mutabakat akışı, yalnızca belirli olay kayıtları üzerinde gerçekleştirilen işlemlere odaklanır ve karar yapıları sadece bir kaydın sonucuna göre hareket edebilir.
+8. Hashgraph, günümüz Blockchain platformlarına kıyasla daha yüksek bir performans vaat eder.
+9. Özel ağlar üzerinde yapılan çalışmalarda saniyede 250.000 işlem görüldüğü belirtilmiştir.
+10. Hedera platformu, bu tür teknolojilerin gerçek dünya uygulamalarında test edilmesi için önemli bir deneme ortamı sunmaktadır.
