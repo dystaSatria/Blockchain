@@ -22,7 +22,7 @@ Bu riski önlemek için, Tangle "koordinatör" adı verilen ek bir yapı tanıtt
 
 **Tangle juga tidak mengizinkan "double spending" seperti yang dapat terjadi di dalam Blockchain. Namun, untuk memastikan keabsahan transaksi, Tangle menggunakan konsep "confidence confirmation". Ini berarti jika sebuah transaksi telah dikonfirmasi secara langsung atau tidak langsung, maka transaksi tersebut dianggap lebih terpercaya. Meskipun demikian, ada kemungkinan kecil bahwa transaksi palsu dapat diterima. Untuk mengatasi ini, Tangle menggunakan algoritma yang berjalan berulang kali untuk menghitung nilai kepercayaan. Dengan demikian, semakin tinggi nilai kepercayaan, semakin kecil kemungkinan transaksi palsu diterima.**
 
-**Untuk mencegah risiko ini, Tangle memperkenalkan "coordinator", yaitu struktur tambahan untuk mencapai konsensus. Ini membantu mengurangi risiko kecurangan di dalam sistem. Namun, untuk jaringan IOTA saat ini, risiko ini masih ada.**
+
 
 
 ## HashGraph
