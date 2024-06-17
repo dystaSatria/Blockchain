@@ -20,7 +20,7 @@ Bu riski önlemek için, Tangle "koordinatör" adı verilen ek bir yapı tanıtt
 
 **Namun, ada masalah yang disebut "lazy tip problem". Ini terjadi ketika transaksi baru cenderung hanya mengonfirmasi transaksi lama, yang dapat menyebabkan beberapa transaksi tidak pernah atau terlambat dikonfirmasi. Untuk mengatasi ini, Tangle tidak memaksa pengguna untuk mengonfirmasi hanya transaksi tertentu, melainkan memberikan arahan melalui nilai-nilai tertentu. Ini membuat sistem lebih efisien dan mencegah transaksi yang malas.**
 
-**Tangle juga tidak mengizinkan "double spending" seperti yang dapat terjadi di dalam Blockchain. Namun, untuk memastikan keabsahan transaksi, Tangle menggunakan konsep "confidence confirmation". Ini berarti jika sebuah transaksi telah dikonfirmasi secara langsung atau tidak langsung, maka transaksi tersebut dianggap lebih terpercaya. Meskipun demikian, ada kemungkinan kecil bahwa transaksi palsu dapat diterima. Untuk mengatasi ini, Tangle menggunakan algoritma yang berjalan berulang kali untuk menghitung nilai kepercayaan. Dengan demikian, semakin tinggi nilai kepercayaan, semakin kecil kemungkinan transaksi palsu diterima.**
+
 
 
 
