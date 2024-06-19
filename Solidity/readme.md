@@ -1,1 +1,1 @@
-# Solidity Documentation
+# Solidity Documentations
