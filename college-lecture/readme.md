@@ -29,18 +29,7 @@ Bu riski önlemek için, Tangle "koordinatör" adı verilen ek bir yapı tanıtt
 
 Poin-poin Penting:
 
-1. Struktur Hashgraph melibatkan semua peserta jaringan yang terus menerus berkomunikasi satu sama lain dan berbagi informasi tentang catatan kejadian.
-2. Dalam komunikasi ini, digunakan pendekatan yang disebut "gossip protocol"; ini memungkinkan peserta untuk berbagi informasi dengan peserta lain secara acak.
-3. Setiap catatan kejadian dalam Hashgraph terhubung satu sama lain melalui nilai hash kriptografis, sehingga memungkinkan catatan kejadian untuk merujuk ke catatan kejadian sebelumnya.
-4. Kesepakatan dalam Hashgraph terjadi berdasarkan urutan dan informasi waktu pada catatan kejadian.
-5. Untuk mencapai kesepakatan, saksi dan proses pemungutan suara digunakan.
-6. Untuk menentukan tur yang valid dari suatu catatan kejadian, saksi harus memberikan suara dan mayoritas harus menerimanya.
-7. Aliran kesepakatan hanya berkonsentrasi pada catatan kejadian tertentu dan struktur keputusan hanya mengikuti hasil dari satu catatan.
-8. Hashgraph menjanjikan kinerja yang lebih tinggi dibandingkan platform Blockchain saat ini.
-9. Beberapa penelitian yang dilakukan pada jaringan privat mencatat adanya 250.000 transaksi per detik.
-10. Platform Hedera menyediakan lingkungan uji coba yang penting untuk teknologi semacam ini diimplementasikan dalam aplikasi dunia nyata.
 
----
 
 
 Önemli Noktalar:
