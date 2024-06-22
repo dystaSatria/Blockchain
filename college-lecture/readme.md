@@ -24,14 +24,6 @@ Bu riski önlemek için, Tangle "koordinatör" adı verilen ek bir yapı tanıtt
 
 
 
-
-## HashGraph
-
-Poin-poin Penting:
-
-
-
-
 Önemli Noktalar:
 
 1. Hashgraph yapısında, tüm ağ katılımcıları sürekli olarak birbirleriyle iletişim kurar ve olay kayıtları hakkında bilgi paylaşır.
